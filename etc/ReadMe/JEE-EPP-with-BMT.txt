@@ -1,0 +1,27 @@
+How to generate a JEE EPP with Bluemix tools.
+1. Download JEE EPP and extract it.
+2. Use p2 director to install Bluemix tools to it.
+3. Zip it up.
+4. Do some smoke testing - ensure that Bluemix Tools Welcome page shows up 
+   when starting for the first time. 
+
+Experiences with p2 Director
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+eclipsec.exe -noSplash -consoleLog -application org.eclipse.equinox.p2.director -repository http://public.dhe.ibm.com/ibmdl/export/pub/software/websphere/wasdev/updates/cloud/V105 -installIU com.ibm.cftools.feature.feature.group,com.ibm.websphere.wdt.server.tools.feature.group -tag AddBluemixTools -destination c:\Eclipse\tmp\eclipse\ -profile epp.package.jee
+
+Used it as a runtime app to debug issues better. Here are the set of problems
+encountered and their solutions:
+* The first problem was a typo in the destination. 
+* Next problem was to figure out the "IU" ids that need to be passed to 
+  "-installIU". Need to refer to the content.jar in the repository to get this 
+  info. Typicallly this ends with ".feature.group". 
+* The next problem was that it was not picking up existing plugins, instead 
+  trying to install the full platform all over again. This is because the 
+  JEE EPP Package had its own profile (instead of the standard SDKProfile). 
+* Finally, the IUs for Bluemix Tools and Liberty Tools need to be explicitly 
+  mentioned to get both of them installed. 
+
+TODO Tasks
+1. A script to download JEE EPP package.
+2. Unzip the package.
+3. Use p2 from the same JEE EPP

@@ -1,0 +1,24 @@
+ org.eclipse.cft.server.ui,
+ org.eclipse.jdt.debug.ui,
+ org.eclipse.jdt.ui,
+ org.eclipse.jface.text
+
+org.eclipse.cft.server.ui,
+application.JavaCloudFoundryArchiver (CloudUIUtil.getShell())
+startcommand
+ui
+
+org.eclipse.jdt.debug.ui,
+startcommand.JavaTypeResolver#getMainTypes() (MainMethodSearchEngine)
+
+org.eclipse.jdt.ui,
+application.JavaCloudFoundryArchiver (jarpackager[fat])
+startcommand.JavaTypeUIAdapter#applyContentAssist() (IContentAssistHelper)
+
+org.eclipse.jface.text
+startcommand.JavaTypeUIAdapter#applyContentAssist() (IContentAssistHelper)
+
+standalone.ui:
+Removed all classes in application except for JavaCloudFoundryArchiver
+This required to add dependency to standalone and export the package
+standalone.internal.application

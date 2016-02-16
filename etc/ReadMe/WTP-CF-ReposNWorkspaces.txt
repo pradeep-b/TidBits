@@ -1,0 +1,124 @@
+IDE: C:\Eclipse\J2eIDE-45-x64 (Mars)
+IDE: C:\Eclipse\J2eIDE-x64-mars.1 (Mars.1)
+
+TGT: C:\Eclipse\tmp\eclipse2 (Mars)
+TGT: C:\Eclipse\tmp\eclipse.mars3 (Mars)
+TGT: C:\Eclipse\tmp\eclipse.mars3.1 (Mars.1)
+--------------------------------------------------------------
+
+WTP
+
+bm-ws4 - git - All the work leading up to https://bugs.eclipse.org/bugs/show_bug.cgi?id=471625
+- Has issues because 3_7 Branch is not bringing in Steven Hung's latest commits
+bm-ws5 - git2 - New Git repo for 3_7; It has all the SR1 changes
+bm-ws6 - git2 + Clone of Sarika's GitHub 371; Does not allow me to push changes
+bm-ws7 - git2 + Fork of Sarika's GitHub 371; Allows me to commit and create a pull request for Sarika
+bm-ws8 - git3 - New clone of servertools and servertools.tests
+       - git (Users) - eclipse.platform.runtime (oec.expressions)
+       - git (Users) - Clone of EPP packages repo (https://git.eclipse.org/r/epp/org.eclipse.epp.packages)
+--------------------------------------------------------------
+
+CF
+
+cf-ws1 - git - Fork of CF Tools's GitHub Repo
+cf-ws2 - git (Users) - Fork of Nieraj's branch of CF Tools Refactoring for Eclipse
+cf-ws3 - git (git2)  - Fork of Nieraj's branch of CF Tools Refactoring for Eclipse
+cf-ws4 - git (Users) - Fork of Nieraj's new branch (eclipse/cft) of CF Tools Refactoring for Eclipse
+cf-ws5 - git (git2)  - Fork of Nieraj's new branch (eclipse/cft) of CF Tools Refactoring for Eclipse
+ * Use Mars.1 for this workspace
+--------------------------------------------------------------
+
+Welcome to the NorthAmerican Winterfell Team
+Mon, Sep 14
+WAS RTC to me, Eric D. Peters
+Show more
+Please respond to jazzadm@jazz112.hursley.ibm.com
+You have been invited to join the Jazz team NorthAmerican Winterfell.
+
+You can explore the related project area via the web client at 
+https://wasrtc.hursley.ibm.com:9443/jazz/web/projects/WS-CD.
+
+Use File>Accept Team Invitation within the Rational Team Concert client to 
+open the Accept Team Invitation dialog.
+Copy the invitation below and paste into the Accept Invitation text field.
+
+teamRepository=https://wasrtc.hursley.ibm.com:9443/jazz/
+userId=pradeepb@in.ibm.com
+userName=PRADEEP BALACHANDRAN
+projectAreaName=WS-CD
+teamAreaPath=/Development/NorthAmerican Winterfell
+--------------------------------------------------------------
+
+IDE: C:\Jazz\rtc502\client\eclipse-451-bmt-x64
+	Jazz-Repo * Load only com.ibm.cftools from Cloud Tools*
+WRK: C:\Jazz\wss\was-bmt2
+TGT: C:\Eclipse\tmp\eclipse.mars3.1 (Eclipse.Mars.1 with bluemix tools)
+
+This is RTC 502 based dev IDE for Bluemix Tools development
+--------------------------------------------------------------
+
+IDE: C:\Jazz\rtc502\client\eclipse-45-x64
+	Jazz-Repo * Load only com.ibm.cftools from Cloud Tools*
+WRK: C:\Jazz\wss\was-bmt2 & C:\Jazz\wss\was-bmt-1041
+TGT: C:\Eclipse\tmp\eclipse2 (Eclipse.Mars.1)
+
+This is RTC 502 based dev IDE for Bluemix Tools development
+--------------------------------------------------------------
+
+IDE: C:\Jazz\rtc502\client\eclipse-451-bmt-x64
+	Jazz-Repo * Load only com.ibm.cftools from Cloud Tools *
+	Git-Repo  * Load Eclipse CF Tools from git2 (cft from GitHub)
+WRK: C:\Jazz\wss\was-bmt3 with Cloud Tools 1.0.5
+TGT: Self (Has BMT 1041 on top of JEE Mars.1)
+
+This is RTC 502 based dev IDE for Bluemix Tools development
+--------------------------------------------------------------
+
+IDE: C:\Jazz\rtc502\client\eclipse-451-bmt-x64
+	No Repo - loaded projects from  (** Obselete **)
+		C:\Users\IBM_ADMIN\git\tmp\com.ibm.cftools.epp
+	Git Repo: (Private copy of EPP from IDS PotPourri)
+		C:\Users\IBM_ADMIN\git\Potpourri\
+		Master Git Repo for all EPP Packages is at:
+		   http://git.eclipse.org/c/epp/org.eclipse.epp.packages.git/
+	IDS Repo: (Local copy of EPP) - Optional (covered by Git repo above)
+		https://hub.jazz.net/project/pradeepb/Potpourri
+	Git Repo: (CFT Nov 2015 copy) 	
+		C:\Eclipse\git2\cft
+	RTC Repo: (WAS RTC)
+		https://wasrtc.hursley.ibm.com:9443/jazz/
+WRK: C:\Jazz\wss\was-bmt-epp
+TGT: Self (Has BMT 1041 on top of JEE Mars.1)
+
+This is RTC 502 based dev IDE for Bluemix Tools development
+--------------------------------------------------------------
+
+IDE: C:\Eclipse\tmp\eclipse2
+
+A Sandbox for developing JavaEE apps for Bluemix
+--------------------------------------------------------------
+
+IDE: C:\Eclipse\tmp\eclipse452wtp372bmt108-RC1
+IDE: C:\Eclipse\tmp\eclipse452wtp372bmt20beta
+
+For Accessibility testing request from Jonathan (Jan 25)
+---------------------------------------------------------------
+
+EPP package development (Temporary)
+
+IDE: C:\Jazz\rtc502\client\eclipse452wtp372-sdk-RC2 (This has RTC 502)
+IDS: https://hub.jazz.net/project/pradeepb/Potpourri
+	Git Repo: 
+		C:\Users\IBM_ADMIN\git\Potpourri\
+TGT: Same as IDE
+WRK: C:\Jazz\wss\was-bmt-epp2  (Has only the EPP projects)
+---------------------------------------------------------------
+
+Copy Work Items Utility
+
+IDS: https://hub.jazz.net/project/pradeepb/LibertyWorkItemsMigration
+GH : https://github.com/pradeep-b/Copy-Work-Items
+IDE: C:\Jazz\rtc502\client\eclipse452wtp372-sdk-RC2
+TGT: C:\Jazz\rtc502\client\eclipse-rtc502-tgt
+WRK: C:\Jazz\wss\rtc-502-cpwi1
+Git: C:\Users\IBM_ADMIN\git\
