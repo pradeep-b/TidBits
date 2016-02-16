@@ -1,8 +1,0 @@
-GitHub best practices:
-1. Fork the repositories on GitHub. If you Clone, you won't have write
-permission (as expected).
-2. If you want to accept changes from upstream, you have to create a new pull
-request to self by changing the base (first one) to your repo.
-3. If you want to fetch a new branch from upstream, then create the new branch
-and accept the changes as mentioned in #2 (where you will specify this new
-branch as the base for accepting into). 
