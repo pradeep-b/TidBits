@@ -3,3 +3,7 @@ PB-TinyJavaApp - Java - No IDS - Use Eclipse IDE (tmp/eclipse2, bm1)
 PBSampleNodeJS - node.js - No IDS - With data cache
 SimpleJavaLibApp-PB - Java - Servlets broken; use html and js at the root
 SimpleTwitterApp - node.js - Sentiment analysis - Issue creating build stages
+PBSwiftOne - Swift - Sample from Swift runtime
+Microservices Sample - 3 Projects - MiSePB-Store1-{OrdersAPI,CatalogAPI,UI}
+https://developer.ibm.com/bluemix/2015/03/16/sample-application-using-microservices-bluemix/
+
