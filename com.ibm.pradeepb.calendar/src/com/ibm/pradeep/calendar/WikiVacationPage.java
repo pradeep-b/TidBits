@@ -7,7 +7,7 @@ package com.ibm.pradeep.calendar;
 public class WikiVacationPage {
 
 	public static void main(String[] args) {
-		printMonths(6, 2016);
+		printMonths(1, 2017);
 	}
 	
 	public enum CalendarFormat {WIKI, HTML}
